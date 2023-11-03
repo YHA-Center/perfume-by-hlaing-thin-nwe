@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+body{
+    overflow-x: hidden;
+    font-family: serif;
+}
+#top{
+    display: flex;
+    justify-content: space-evenly;
+}
+#top .col-xl-5{
+    margin-left: 50px;
+}
+#top .col-xl-5 img{
+    height: 100px;
+    width: 100px;
+}
+#top .col-xl-7{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#top .searchbox{
+    border: 1px solid grey;
+    background-color: white;
+    padding: 3px 10px;
+    height: 35px;
+}
+#top .searchbox input{
+    outline: none;
+    border: none;
+}
+#top .searchbox button{
+    outline: none;
+    border: none;
+    background-color: white;
+}
+#navbar .row1 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(227, 227, 227);
+    height: 40px;
+}
+#navbar .row1 a{
+    padding-top: 5px;
+    text-decoration: none;
+    color: goldenrod;
+}
+
+
+#bestseller .cards{
+    display: flex;
+    margin-top: 70px;
+}
+#bestseller .cards img{
+    width: 70%;
+    margin: 0px 50px;
+}
+#bestseller .cards button{
+    border-radius: 5px;
+    height: 25px;
+    width: 70px;
+    background-color: goldenrod;
+    border: none;
+    outline: none;
+    align-items: center;
+    margin-top: 10px;
+    color: rgb(227, 227, 227);
+}
+#bestseller .cards span{
+    font-family: serif;
+}
+#bestseller .cards button{
+    font-family: serif;
+}
+#shopnow .col-xl-6{
+    height: 300px;
+    margin-top: 50px;
+}
+#shopnow .col-xl-6 img{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 300px;
+}
+
+#review .carousel-inner .carousel-item img{
+    width: 1000px;
+    height: 250px;
+    align-items: center;
+}
+#review .carousel button{
+    width: 700px;
+    height: 300px;
+    margin-right: 100px;
+    
+}
+#footer{
+    background-color: rgb(227, 227, 227);
+    height: 300px;
+    margin-top: 30px;
+}
+#footer .info{
+   
+    padding-top: 30px;
+    padding-left: 30px;
+    color: goldenrod;
+}
+#footer .info h5{
+    font-family: sans-serif;
+}
+#footer .info ul li{
+    list-style-type: none;
+    font-family: serif;
+    
+}
+#footer .follow .col-xl-6{
+   margin-left: 100px;
+}
+#footer .follow .col-xl-6 span{
+    font-size: 20px;
+    font-family: serif;
+}
+#footer .follow .col-xl-6 .fa-brands{
+    margin-left: 10px;
+    font-size: 30px;
+    
+}
